@@ -1,0 +1,18 @@
+nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+}
+
+button {
+    width: 250px;
+    margin: 0.5%;
+    font-size: 24px;
+    background-color: #a5a58d;
+    border-radius: 10px;
+}
+
+header {
+    background-color: #b7b7a4;
+    font-size: 200%;
+}
