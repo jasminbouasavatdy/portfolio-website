@@ -1,3 +1,6 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
 nav {
     display: flex;
     justify-content: flex-end;
@@ -10,6 +13,7 @@ button {
     font-size: 24px;
     background-color: #a5a58d;
     border-radius: 10px;
+    color: black;
 }
 
 header {
