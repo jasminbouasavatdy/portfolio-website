@@ -3,8 +3,9 @@
 }
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: auto;
+    border:1px solid red;
 }
 
 button {
@@ -20,3 +21,19 @@ header {
     background-color: #b7b7a4;
     font-size: 200%;
 }
+
+.me {
+    float: right;
+    border-radius: 10px;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+    border-bottom:solid;
+}
+
+.name {
+    text-align: center;
+}
+
