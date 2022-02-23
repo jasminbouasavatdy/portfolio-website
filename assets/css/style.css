@@ -13,19 +13,22 @@ header {
     border: 12px solid #ffe8d6;
 }
 
-.me {
-    margin-top: 20px;
-    margin-right: 20px;
-    float: right;
-    border-radius: 500px;
-    border: 12px solid #ffe8d6 ;
-}
-
 li {
     display: inline;
     margin: 20px;
     border-bottom:solid;
 }
+
+.me {
+    display: center;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 500px;
+    float: center;
+    border: 12px solid #ffe8d6 ;
+    height: 400px;
+}
+
 
 .name {
     text-align: center;
@@ -34,9 +37,9 @@ li {
 
 .main {
     border: 10px solid #ffe8d6;
-    border-radius: 10px;
     background-color: #6b705c;
     padding: 10px;
+    text-align: center;
 }
 .main h2 {
     font-size: 32px;
@@ -62,6 +65,7 @@ a:hover {
 
 img {
     border:12px solid #a5a58d;
+    border-radius: 10px;
 }
 
 #work {
@@ -69,5 +73,10 @@ img {
 }
 
 #about-me {
-    display: inline-block ;
+    width: 1848px;
+    height: 800px;
+}
+
+footer {
+    text-align: center;
 }
