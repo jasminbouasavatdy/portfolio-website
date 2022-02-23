@@ -1,6 +1,5 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
@@ -46,6 +45,7 @@ li {
     background-color: #6b705c;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
 .main h2 {
     font-size: 32px;
@@ -70,7 +70,7 @@ a:hover {
 }
 
 img {
-    border:12px solid #a5a58d;
+    border:10px solid #a5a58d;
     border-radius: 10px;
 }
 
@@ -88,4 +88,14 @@ footer {
 
 footer a {
     margin: 4px;
+}
+
+.photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.all {
+    display: flex;
+    justify-content:center;
 }
