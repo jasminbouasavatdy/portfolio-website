@@ -14,8 +14,8 @@ header {
 }
 
 .me {
-    margin-top: 35px;
-    margin-right: 35px;
+    margin-top: 20px;
+    margin-right: 20px;
     float: right;
     border-radius: 500px;
     border: 12px solid #ffe8d6 ;
@@ -62,4 +62,12 @@ a:hover {
 
 img {
     border:12px solid #a5a58d;
+}
+
+#work {
+    display: inline-block;
+}
+
+#about-me {
+    display: inline-block ;
 }
