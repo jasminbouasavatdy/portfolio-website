@@ -1,10 +1,16 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 nav {
     display: flex;
     justify-content: center;
     margin-top: auto;
+}
+nav a {
+    margin:4px
 }
 
 header {
@@ -73,10 +79,13 @@ img {
 }
 
 #about-me {
-    width: 1848px;
-    height: 800px;
+    height: 100%;
 }
 
 footer {
     text-align: center;
+}
+
+footer a {
+    margin: 4px;
 }
