@@ -5,7 +5,6 @@ nav {
     display: flex;
     justify-content: center;
     margin-top: auto;
-    border:1px solid red;
 }
 
 button {
@@ -20,11 +19,15 @@ button {
 header {
     background-color: #b7b7a4;
     font-size: 200%;
+    border: 12px solid #ffe8d6;
 }
 
 .me {
+    margin-top: 35px;
+    margin-right: 35px;
     float: right;
-    border-radius: 10px;
+    border-radius: 500px;
+    border: 12px solid #ffe8d6 ;
 }
 
 li {
@@ -35,5 +38,22 @@ li {
 
 .name {
     text-align: center;
+    margin-bottom: 0px;
 }
 
+.moon {
+    border: 10px solid #6b705c;
+    border-radius: 10px;
+
+}
+
+.aboutme {
+    background-color: #6b705c;
+    border: 12px solid #ffe8d6;
+}
+
+.work {
+    background-color: #b7b7a4;
+    padding: 10px;
+    border:10px solid#ffe8d6;
+}
