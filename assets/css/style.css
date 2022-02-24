@@ -46,6 +46,7 @@ li {
     padding: 10px;
     text-align: center;
     width: 100%;
+   
 }
 .main h2 {
     font-size: 32px;
@@ -74,9 +75,9 @@ img {
     border-radius: 10px;
 }
 
-#work {
+/* #work {
     display: inline-block;
-}
+} */
 
 #about-me {
     height: 100%;
@@ -90,12 +91,35 @@ footer a {
     margin: 4px;
 }
 
-.photos {
+/* .photos {
     display: flex;
     flex-direction: column;
-}
+} */
 
 .all {
     display: flex;
     justify-content:center;
+    flex-direction: column;
 }
+.container {
+    position: relative;
+    width: 100%;
+  }
+
+
+/* .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffe8d6;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+  } */
+/* .containerTop {
+    position:absolute;
+} */
+
+/* .left {
+     float: left; 
+  } */
