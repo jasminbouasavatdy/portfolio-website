@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* added this so when the screen was at a small size everything was still aligned. */
 nav {
     text-align: center;
 }
@@ -55,7 +56,7 @@ a {
     text-decoration: none;
     margin:4px;
 }
-
+/* addded a hover so when you hover over the links it shows you are ontop of it */
 a:hover {
     border-bottom: solid;
 }
@@ -92,7 +93,7 @@ footer a {
 .projects {
     width: 35%;
 }
-
+/* added a media screen so when it hits 900px the background color changes */
 @media screen and (max-width:900px){
     .main{
         background-color: #ffe8d6;
