@@ -4,12 +4,7 @@
     box-sizing: border-box;
 }
 nav {
-    display: flex;
-    justify-content: center;
-    margin-top: auto;
-}
-nav a {
-    margin:4px
+    text-align: center;
 }
 
 header {
@@ -53,11 +48,6 @@ li {
 
 p{
     font-size: 20px;
-}
-header nav {
-    display:inline-block;
-    margin-left: 40%;
-    text-align: center;
 }
 
 a {
