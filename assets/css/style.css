@@ -96,7 +96,12 @@ footer a {
 /* added a media screen so when it hits 900px the background color changes */
 @media screen and (max-width:900px){
     .main{
+        background-color: #a5a58d;
+    }
+}
+/* added another color change s */
+@media screen and (max-width:600px){
+    .main{
         background-color: #ffe8d6;
     }
 }
-
